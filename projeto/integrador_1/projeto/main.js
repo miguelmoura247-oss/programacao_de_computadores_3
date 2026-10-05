@@ -88,7 +88,7 @@ console.log(
 
 
 
-console.log("\n========== TESTE DE MATRÍCULA ==========");
+console.log("\n== TESTE DE MATRÍCULA ==");
 
 console.log(
     "Matrícula válida:",
