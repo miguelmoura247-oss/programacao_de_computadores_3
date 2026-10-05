@@ -6,8 +6,7 @@ const Professor = require("./pessoas/Professor");
 
 
 function mostrarDados(objeto) {
-    console.log("--------------------------------");
-
+    
     console.log("Nome:", objeto.getNome());
     console.log("E-mail:", objeto.getEmail());
 
@@ -19,7 +18,6 @@ function mostrarDados(objeto) {
         console.log("Disciplina:", objeto.getDisciplina());
     }
 
-    console.log("--------------------------------");
 }
 
 
@@ -70,7 +68,7 @@ professor2.setDisciplina("JavaScript");
 
 
 
-console.log("========== TESTE DE E-MAIL ==========");
+console.log("== TESTE DE E-MAIL ==");
 
 console.log(
     "E-mail válido:",
@@ -105,7 +103,7 @@ console.log(
 
 
 
-console.log("\n========== TESTE DE CPF ==========");
+console.log("\n== TESTE DE CPF ==");
 
 console.log(
     "CPF válido:",
@@ -120,7 +118,7 @@ console.log(
 
 
 
-console.log("\n========== TESTE DE PROFESSOR ==========");
+console.log("\n== TESTE DE PROFESSOR ==");
 
 console.log(
     "Professor com e-mail .edu.br:",
@@ -135,7 +133,7 @@ console.log(
 
 
 
-console.log("\n========== PESSOAS ==========");
+console.log("\n== PESSOAS ==");
 
 mostrarDados(pessoa1);
 mostrarDados(pessoa2);
@@ -143,13 +141,13 @@ mostrarDados(pessoa2);
 
 
 
-console.log("\n========== ALUNOS ==========");
+console.log("\n== ALUNOS ==");
 
 mostrarDados(aluno1);
 mostrarDados(aluno2);
 
 
-console.log("\n========== PROFESSORES ==========");
+console.log("\n== PROFESSORES ==");
 
 mostrarDados(professor1);
 mostrarDados(professor2);
@@ -157,23 +155,22 @@ mostrarDados(professor2);
 
 
 
-console.log("\n======================================");
+console.log("\n");
 console.log("           RELATÓRIO FINAL");
-console.log("======================================");
 
-console.log("\n--- PESSOAS ---");
+console.log("\n- PESSOAS -");
 
 mostrarDados(pessoa1);
 mostrarDados(pessoa2);
 
 
-console.log("\n--- ALUNOS ---");
+console.log("\n-ALUNOS -");
 
 mostrarDados(aluno1);
 mostrarDados(aluno2);
 
 
-console.log("\n--- PROFESSORES ---");
+console.log("\n- PROFESSORES -");
 
 mostrarDados(professor1);
 mostrarDados(professor2);
